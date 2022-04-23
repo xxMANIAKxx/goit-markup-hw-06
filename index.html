@@ -26,7 +26,7 @@
           <ul class="navmenu-list ul-list">
             <li class="navmenu-list-item">
               <div>
-              <a class="navmenu-list-link link activ" href="index.html">Agencja</a>
+                <a class="navmenu-list-link link activ" href="index.html">Agencja</a>
               </div>
             </li>
             <li class="navmenu-list-item">
@@ -57,7 +57,7 @@
       <section class="main-section">
         <div class="container">
           <h1 class="h1-txt">efektywne rozwiązania dla waszego biznesu</h1>
-          <button class="button-order" type="button" data-modal-open >Zamów usługe</button>
+          <button class="button-order" type="button" data-modal-open>Zamów usługe</button>
         </div>
       </section>
 
@@ -460,12 +460,22 @@
               </li>
             </ul>
           </li>
+          <li class="subscribe">
+            <h6 class="h6-txt">Zapisz się do newslettera</h6>
+            <form name="signup_form" autocomplete="off">
+              <label>
+                <input class="subemail" type="email" name="email" placeholder="E-mail" />
+              </label>
+              <button class="subbuton" type="submit">Zapisz się<svg class="send" width="24px" height="24px"><use href="images/icons.svg#icon-send"></use></svg></button>
+            </form>
+          </li>
         </ul>
       </div>
     </footer>
-     <div class="backdrop is-hidden" data-modal>
+    <!-- order window -->
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-          <button type="button" class="close-btn" data-modal-close>X</button>
+        <button type="button" class="close-btn" data-modal-close>X</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>

@@ -161,6 +161,22 @@ line-height: 1.192;
     letter-spacing: 0.02em;
     padding: 6px 22px;
 }
+.subbuton{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--highlight-color);
+    color: var(--basic-white);
+    fill: var(--basic-white);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: inline-flex;
+    padding: 10px 28px 10px 42px;
+}
 
 /* == end buttons == */
 
@@ -604,6 +620,21 @@ padding: 20px 24px;
     background-color: rgba(255, 255, 255, 0.1);
     fill: var(--basic-white);
     border-radius: 50%;
+}
+.subscribe{
+    padding-left: 78px;
+}
+.send{
+    margin-left: 24px;
+}
+.subemail{
+    width: 358px;
+    background-color: var(--background);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 15px;
 }
 
 /* == footer end == */
