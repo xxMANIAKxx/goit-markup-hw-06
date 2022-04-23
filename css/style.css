@@ -629,6 +629,7 @@ padding: 20px 24px;
 }
 .subemail{
     width: 358px;
+    color: var(--basic-white);
     background-color: var(--background);
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
