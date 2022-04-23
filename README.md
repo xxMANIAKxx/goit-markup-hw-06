@@ -1,1 +1,1 @@
-# goit-markup-hw-06
+Zadanie domowe 06 - Michał Kubit
