@@ -41,16 +41,12 @@
           <li header-adres-list-item list>
             <a class="header-email link" href="mailto:info@devstudio.com"
               ><svg class="header-icon" width="16px" height="12px">
-                <use href="images/icons.svg#icon-envelope"></use></svg
-              >info@devstudio.com</a
-            >
+                <use href="images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
           </li>
           <li header-adres-list-item>
             <a class="header-phone link" href="tel:48111111111"
               ><svg class="header-icon" width="10px" height="16px">
-                <use href="images/icons.svg#icon-smartphone"></use></svg
-              >+48 111 111 111</a
-            >
+                <use href="images/icons.svg#icon-smartphone"></use></svg>+48 111 111 111</a>
           </li>
         </ul>
       </div>
@@ -516,13 +512,14 @@
                 placeholder="Wprowadź tekst"
               ></textarea>
           </fieldset>
-          <label>
-                <input type="checkbox" name="policy" />
-                Oświadczam iż akceptuję <a href="#">Regulamin</a> i
-                <a href="#">Politykę Prywatności.</a>
-              </label>
-              <button class="clime-order-button" type="submit">Wyślij</button>
-            </label>
+            <div class="policy">
+                <input class="policy-box visually-hiden" type="checkbox" name="policy" id="policy" />
+                <label class="policy-text" for="policy">Oświadczam iż akceptuję&nbsp;<a href="#">Regulamin&nbsp;</a>i&nbsp;<a href="#">Politykę Prywatności.</a></label>
+            </div>
+            
+            <div class="accept">
+                <button class="order-button-modal" type="submit">Wyślij</button>
+            </div>
         </form>
         <button type="button" class="close-btn" data-modal-close>X</button>
       </div>
